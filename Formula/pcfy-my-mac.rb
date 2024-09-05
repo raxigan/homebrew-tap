@@ -10,7 +10,7 @@ class PcfyMyMac < Formula
 
   on_intel do
     url "https://github.com/raxigan/pcfy-my-mac/releases/download/0.2.2/pcfy-my-mac-0.2.2-darwin-amd64.tar.gz"
-    sha256 "1387146704775a2e41fcc4914d1124c00482f3d4bd5aed76c0deb8f44214288b"
+    sha256 "dc124b9489bb7c9eb8e8b0385066eeeb7aaa6740e0b9487540611bc9038e5158"
 
     def install
       bin.install "pcfy-my-mac"
@@ -18,7 +18,7 @@ class PcfyMyMac < Formula
   end
   on_arm do
     url "https://github.com/raxigan/pcfy-my-mac/releases/download/0.2.2/pcfy-my-mac-0.2.2-darwin-arm64.tar.gz"
-    sha256 "ebf0e8f7b450e4dd44993219d9b25de0f6a2acf057820de191ade76bcc93e61d"
+    sha256 "aa277f51e92c6f878a7191a0899fe384810d60ae5258db6ecb36146659470663"
 
     def install
       bin.install "pcfy-my-mac"
