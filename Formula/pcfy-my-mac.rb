@@ -5,20 +5,20 @@
 class PcfyMyMac < Formula
   desc "Get the PC-like experience on macOS"
   homepage "https://github.com/raxigan/pcfy-my-mac"
-  version "0.2.2"
+  version "0.2.3"
   depends_on :macos
 
   on_intel do
-    url "https://github.com/raxigan/pcfy-my-mac/releases/download/0.2.2/pcfy-my-mac-0.2.2-darwin-amd64.tar.gz"
-    sha256 "dc124b9489bb7c9eb8e8b0385066eeeb7aaa6740e0b9487540611bc9038e5158"
+    url "https://github.com/raxigan/pcfy-my-mac/releases/download/0.2.3/pcfy-my-mac-0.2.3-darwin-amd64.tar.gz"
+    sha256 "0d6a8967fce68bbaa44c45a5ebe9613cb2d5e3ec07e517252323324faa17c8de"
 
     def install
       bin.install "pcfy-my-mac"
     end
   end
   on_arm do
-    url "https://github.com/raxigan/pcfy-my-mac/releases/download/0.2.2/pcfy-my-mac-0.2.2-darwin-arm64.tar.gz"
-    sha256 "aa277f51e92c6f878a7191a0899fe384810d60ae5258db6ecb36146659470663"
+    url "https://github.com/raxigan/pcfy-my-mac/releases/download/0.2.3/pcfy-my-mac-0.2.3-darwin-arm64.tar.gz"
+    sha256 "fed2502bca0236f75c5392819f3e880385829230ec20c874f14179d12486d34a"
 
     def install
       bin.install "pcfy-my-mac"
